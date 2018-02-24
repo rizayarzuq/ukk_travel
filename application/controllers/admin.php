@@ -31,7 +31,7 @@ class Admin extends CI_Controller {
 	}
 
 	function data_rute(){
-		$data['tb_rute']= $this->m_data->tampil_data_rute()->result();
+		$data['rute']= $this->m_data->tampil_data_rute()->result();
 		$data['title']= "Data rute";
 		$this->load->view('v_admin_data_rute',$data);
 	}
