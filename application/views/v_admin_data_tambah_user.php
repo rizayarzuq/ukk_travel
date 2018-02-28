@@ -27,7 +27,7 @@
               <!-- /.box-header -->
               <div class="box-body">
               <!-- form start -->
-            <form  action=<?php echo base_url("crud/tambah_aksi"); ?> method="post">
+            <form  action=<?php echo base_url("crud/tambah"); ?> method="post">
               <div class="box-body">
                 <div class="form-group">
                   <label>Fullname</label>

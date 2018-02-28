@@ -37,8 +37,8 @@
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
                     <li class="active"><a href=<?php echo base_url();?>>Beranda</a></li>
-                    <li><a href=<?php echo base_url("#");?>>Tentang</a>
-                      <li><a href=<?php echo base_url("#");?>>Kontak</a></li>
+                    <li><a href=<?php echo base_url("about");?>>Tentang</a>
+                      <li><a href=<?php echo base_url("contact");?>>Kontak</a></li>
                       <li><a href=<?php echo base_url("login");?>>Masuk</a></li>
                     </ul>
                   </div>

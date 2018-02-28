@@ -36,10 +36,10 @@
                 <div class="rd-navbar-nav-wrap">
                   <!-- RD Navbar Nav-->
                   <ul class="rd-navbar-nav">
-                    <li class="active"><a href=<?php echo base_url();?>>Home</a></li>
-                    <li><a href=<?php echo base_url("#");?>>About</a>
-                      <li><a href=<?php echo base_url("#");?>>Contacts</a></li>
-                      <li><a href=<?php echo base_url("login");?>>Log in</a></li>
+                    <li class="active"><a href=<?php echo base_url();?>>Beranda</a></li>
+                    <li><a href=<?php echo base_url("#");?>>Tentang</a>
+                      <li><a href=<?php echo base_url("#");?>>Kontak</a></li>
+                      <li><a href=<?php echo base_url("login");?>>Masuk</a></li>
                     </ul>
                   </div>
                 </div>

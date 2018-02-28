@@ -70,7 +70,7 @@
             <div class="range range-xs-center">
               <div class="cell-sm-8 cell-md-6 cell-lg-4">
                 <!-- RD Mailform-->
-                <form data-form-output="form-output-global" method="post" action="<?php echo base_url('crud/tambah_aksi'); ?>"  class="text-left">
+                <form data-form-output="form-output-global" method="post" action="<?php echo base_url('crud/tambah'); ?>"  class="text-left">
                   <div class="form-group">
                     <label  class="form-label form-label-outside">Nama</label>
                     <input  type="text" name="username"  class="form-control form-control-gray">
@@ -86,8 +86,8 @@
                     <input  type="text" name="fullname"  class="form-control form-control-gray">
                      <input  type="hidden" name="level"  class="form-control form-control-gray" value="user">
                   </div>
-                  <input type="submit" class="btn btn-primary btn-sm btn-naira btn-naira-up offset-top-22" value="KIRIM">
-                  <!--button type="submit" class="btn btn-primary btn-block btn-sm offset-top-22">Daftar</button-->
+                 <!--input type="submit" class="btn btn-primary btn-sm btn-naira btn-naira-up offset-top-22" value="KIRIM"-->
+                  <button type="submit" class="btn btn-primary btn-block btn-sm offset-top-22">Daftar</button>
                 </form>
               </div>
             </div>
